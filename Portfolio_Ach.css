@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.achievements{
+    margin-top: 3%;
+    background: linear-gradient(to right,#344334,#001010);
+}
+.achi{
+    position: relative;
+    line-height: 300%;
+    cursor: pointer;
+    padding: 2%;
+    text-transform: capitalize;
+}
+.achievements h2{
+    cursor: pointer;
+    padding: 1ch;
+    font-size: 35px;
+    font-weight: 400;
+    font-family: cursive;
+}
+.tr1{
+    margin-top: -5%;
+    width: 100px;
+    height: 60px;
+}
+.tr11{
+    margin-top: -5%;
+    width: 100px;
+    height: 60px;
+    top: -50px;
+    position: relative;
+}
+.ac{
+    position:relative;
+    top: -50px;
+}
+.tr2{
+    position: relative;
+    width: 100px;
+    height: 60px;
+    top: -60px;
+}
+.achi strong{
+    margin-left: 10%;
+    font-family:cursive;
+    text-align: center;
+}
+
+@media (max-width:350px) and (min-width:200px){
+    .achievements{
+        display:block;
+        position:relative;
+    }
+    .achievements h2{
+        font-size: 30px;
+        position: relative;
+        left: -40px;
+        top: 10px;
+    }
+    .achi{
+        position: relative;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .achi img{
+        position:relative;
+        top: -16vh;
+        left: -3vh;
+        width: 40px;
+        height: 50px;
+    }
+    .achi strong{
+        line-height: -100px;
+        position: relative;
+        font-size: 13px;
+        left: 1vh;
+        text-align:left;
+    }
+    .achi .go{
+        line-height: -100px;
+        position: relative;
+        font-size: 13px;
+        left: 4vh;
+        text-align:left;
+    }
+    .achi .tr{
+        position: relative;
+        top: -160px;
+    }
+}
